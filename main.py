@@ -10,7 +10,7 @@ converter = []
 
 API_ID = 19961504
 API_HASH = '28de3a8f4b68b388bfe47bf84d1b124b'
-Token = '5604529921:AAHS2u0P4V4hsyXpb1Scbaxv20Yeaws7e3k' #token del bot
+Token = '5688131125:AAE5LsZdA-T-TmrCWq-yDDNpRb0fbEEoOrY' #token del bot
 
 bot = Client('session', api_id=API_ID, api_hash=API_HASH, bot_token=Token)
 
@@ -32,7 +32,7 @@ async def message_handler(client: Client, message: Message):
                 list.append(i)
             for i in list:
                 i = i.split('\t')[-1]
-                a = 'https://repotematico.uo.edu.cu/sites/default/files/Paquete_contenido/' + i
+                a = 'https://repotematico.uo.edu.cu/sites/default/files/Paquete_contenido/' + i 
                 converter.append(a)       
             namet = str(random.randint(11111,9999999)) + '.txt'
             with open(namet, 'w') as txt:
