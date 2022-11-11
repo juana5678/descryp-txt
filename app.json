@@ -12,15 +12,15 @@
     },
     "api_id": {
       "description": "Api Id de telegram",
-      "value": "18641760"
+      "value": "17158127"
     },
     "api_hash": {
       "description": "Api Hash de telegram",
-      "value": "b7b026ce9d1d36400c02dc21d8df53a3"
+      "value": "d1a5974070430293b64fde5339591447"
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "obisoftt"
+      "value": "reymichel2009"
     }
   }
 }
